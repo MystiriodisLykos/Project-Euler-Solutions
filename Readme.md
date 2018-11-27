@@ -13,7 +13,7 @@ This section will describe how to install and use the pe_crypto command line too
 Installing the pe_crypto package with pip is the easiest way to set up the pe_crypto tool. This require python 3 and I recommend doing the install in a virtual environment.
 1. Open a terminal and navigate to the Project_Euler directory
 2. Run `pip install .\pe_crypto`
-Doing this will install the pe_cyrpto tool and any necessary tools for any solution into your python environment.
+Doing this will install the pe_cyrpto tool and any necessary libraries into your python environment.
 ### Using pe_crypto
 To use pe_crypto to decrypt a file you need to get the password for that solution, each solution contains instructions for obtaining the password. Once you have obtained the password use the 'decrypt' command in pe_crypto to decrypt the solution.
 The arguments to pe_crypto decrypt are as follows
