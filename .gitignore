@@ -1,0 +1,11 @@
+
+*.py
+*.pyc
+venv/*
+
+!pe_crypto/**
+
+pe_crypto/utilities.py
+
+__pycache__/
+*.egg-info/
