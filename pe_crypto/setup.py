@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name = 'pe_utils',
+    name = 'pe_crypto',
     version = '1.0',
     py_modules = ['pe_crypto'],
     install_requires = [
