@@ -6,6 +6,10 @@ venv/*
 !pe_crypto/**
 
 pe_crypto/utilities.py
+pe_crypto/auto_save.py
 
 __pycache__/
 *.egg-info/
+
+save-commands.json
+Temp.txt
