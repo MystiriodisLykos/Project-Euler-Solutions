@@ -24,9 +24,15 @@ The arguments to pe_crypto decrypt are as follows
 * DST: The file you want the decrypted file to be.
 #### Example
 If you where trying to decrypt the solution file for Problem 1 and the password for that solution was 'Password' the command for decrypting that file, if you are in the Project_Euler directory, would be.
+```
     pe_crypto decrypt 0001 Password .\\0001-0100\\PE0001.txt PE0001.py
+```
 ## Using a decrypted solution
 Every solution is set up to be used as a command line tool. To get information on how to use that command line tools run.
+```
     python [solution file] -h
+```
 Example for Project Euler Problem \#1
+```
     python PE0001.py -h
+```
